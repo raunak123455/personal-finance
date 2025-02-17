@@ -12,7 +12,7 @@ interface Budget {
   amount: number;
 }
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://personal-finance-pn8h.onrender.com/api";
 
 export const transactionService = {
   // Get all transactions
