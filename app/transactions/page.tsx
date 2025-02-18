@@ -31,7 +31,7 @@ export default function TransactionsPage() {
     <Layout>
       <div className="min-h-full bg-gradient-to-r from-green-400 to-blue-500 p-8 rounded-3xl shadow-2xl">
         <h1 className="text-4xl font-bold mb-6 text-white">Transactions</h1>
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 xl:grid-cols-2 grid-cols-1">
           <div className="bg-white bg-opacity-20 backdrop-blur-lg rounded-xl p-6">
             <TransactionList key={refreshKey} onEdit={handleEdit} />
           </div>
