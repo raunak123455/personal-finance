@@ -3,9 +3,9 @@ import "./globals.css";
 import { BudgetProvider } from "@/components/budget-context";
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+  title: "Finance visualization app",
+  description: "Assignment",
+  generator: "Raunak",
 };
 
 export default function RootLayout({
